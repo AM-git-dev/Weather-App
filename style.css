@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'QuickSand', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.weatherAppContainer{
+    width: 80%;
+    height: 31.25rem;
+    display: flex;
+    background: rgba(40, 159, 210, 0.63);
+    flex-direction: column;
+    box-shadow: black -3px 0 4px 0;
+    border-radius: 15px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+
+.infoscontainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+.cityandmeteo{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+label {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+
+}
+
+#searchbar{
+    width: 33.33%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.searchbtn{
+    width: 50px;
+    border-radius: 30%;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+#weather-icon{
+    position: relative;
+    width: 9.375rem;
+    display: none;
+}
+
+#daybyday {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forecast5days {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.forecast-day{
+
+    width: 100px;
+    text-align: center;
+    p{
+      text-transform: capitalize;
+        font-size: 1rem;
+    }
+}
+
+
+
