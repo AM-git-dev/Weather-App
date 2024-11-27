@@ -23,6 +23,7 @@ body{
     flex-direction: column;
     box-shadow: black -3px 0 4px 0;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -51,7 +52,7 @@ label {
 
 }
 
-#searchbar{
+.searchbar{
     width: 33.33%;
     border-radius: 10px;
     text-align: center;
@@ -62,18 +63,21 @@ label {
     border-radius: 30%;
 }
 
+.buttoncompare{
+    margin-bottom: 20px;
+}
 ::placeholder {
     text-align: center;
 }
 
 
-#weather-icon{
+.weather-icon{
     position: relative;
     width: 9.375rem;
     display: none;
 }
 
-#daybyday {
+.daybyday {
     display: flex;
     flex-direction: row;
     width: 95%;
@@ -82,7 +86,7 @@ label {
     margin-right: auto;
 }
 
-#forecast5days {
+.forecast5days {
     text-align: center;
     margin-bottom: 15px;
 }
@@ -95,6 +99,10 @@ label {
       text-transform: capitalize;
         font-size: 1rem;
     }
+}
+
+.add-city-button {
+    margin-bottom: 20px;
 }
 
 
